@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: white;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+
+img{
+  padding-bottom: 1rem;
+  width: 70%;
+  height: 70%
+}
+
+
+article{
+  background-color: rgb(112, 110, 108);
+  width: 15vw;
+  padding: 0.7rem;
+  margin: 5rem 2rem 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
